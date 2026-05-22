@@ -2,7 +2,7 @@
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/love_ocean/" : "/",
+  base: "./",
   plugins: [vue()],
   server: {
     host: true,
